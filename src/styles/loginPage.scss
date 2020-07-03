@@ -1,0 +1,15 @@
+.login-root {
+    background-color: $brand-color;
+
+    @media (min-width: $tablet-width) {
+        & > div {
+            width: 40%;
+        }
+    }
+
+    @media (min-width: $phone-width) and (max-width: $tablet-width) {
+        & > div {
+            width: 70%;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.card {
+    min-height: 100px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+    padding: 16px;
+    margin: 16px;
+    background-color: white;
+    border-radius: 8px;
+
+    .card-header {
+        @extend .is-primary-font;
+    }
+
+    .card-subtitle {
+        @extend .is-secondary-font;
+    }
+}
