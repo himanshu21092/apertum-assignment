@@ -8,6 +8,9 @@ I have used styled components to render basic UI elements like input, button, ca
 ### `Centralised HttpService`
 I have used a centralised HTTP Service, which allow us to intercept request and response, and further give us the ability to write a universal error handler as well as appending 'Common Headers' to the request.
 
+### `JWT Token`
+It is stored in session storage. It might not be the safest place to store a token but this is what I have done here.
+
 
 ### `Environment Variable`
 .env has been used to store the config on project level to provide it with flexibility to run across servers without any code manipulation.
